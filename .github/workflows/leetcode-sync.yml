@@ -1,0 +1,21 @@
+name: LeetCode Sync
+
+on:
+  push:
+    branches:
+      - main  # Trigger the action on push to the main branch
+
+jobs:
+  sync-leetcode:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v3
+
+    - name: LeetSyncMaster
+      uses: shubhamwagh/LeetSyncMaster@v1.2.0
+      with:
+        LEETCODE_USERNAME: ${{ secrets.LEETCODE_USERNAME }}
+        LEETCODE_PASSWORD: ${{ secrets.LEETCODE_PASSWORD }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
