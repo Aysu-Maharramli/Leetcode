@@ -1,5 +1,9 @@
-# Leetcode# Trigger Workflow with Updated Secrets
-# Test Sync Again
-# Test Sync Again
-# Retry Workflow with Updated Permissions
-# Retry Workflow with Updated Permissions
+# LeetCode Submissions
+
+> Auto-generated with [LeetSyncMaster](https://github.com/shubhamwagh/LeetSyncMaster)
+
+## Contents
+
+| # | Title | Difficulty | Skills |
+|---| ----- | ---------- | ------ |
+| 0001 | [Two Sum](https://leetcode.com/problems/two-sum) | Easy | `Array` `Hash Table` |
